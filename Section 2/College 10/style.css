@@ -5,8 +5,8 @@ h1:hover {
 button:hover {
 	color: white;
 }
-button:focus
-{
+
+button:focus {
 	border-radius: 10px;
 	background-color: #2ecc71;
 }
