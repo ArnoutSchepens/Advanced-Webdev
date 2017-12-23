@@ -7,10 +7,13 @@ p {
 }
 
 .transformed {
-    background-color: #9b59b6;
+	background-color: #9b59b6;
 
-    /* transform: scale(0.5) rotate(-45deg); */
-    transform: scale(0.5) rotate(-0.125turn);
-    transform-origin: right bottom;
-
+	/* transform: scale(0.5) rotate(-45deg); */
+	-webkit-transform: scale(0.5) rotate(-0.125turn);
+	    -ms-transform: scale(0.5) rotate(-0.125turn);
+	        transform: scale(0.5) rotate(-0.125turn);
+	-webkit-transform-origin: right bottom;
+		-ms-transform-origin: right bottom;
+    		transform-origin: right bottom;
 }
