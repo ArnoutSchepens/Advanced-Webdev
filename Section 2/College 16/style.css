@@ -1,0 +1,33 @@
+p {
+	width: 50px;
+	height: 50px;
+	background-color: #1abc9c;
+	color: #ecf0f1;
+	border: 2px solid #2c3e50;
+}
+
+.transformed {
+	background-color: #3498db;
+    transform: scale(2, 0.5);
+
+    /* (0 - 100%), (0 - 100%) */
+    transform-origin: 0 0;
+    /* left top right bottom */
+    /* transform-origin: left top; */
+
+
+    /* transform-origin: 0 0; */
+            /* EQUALS */
+    /* transform-origin: left top; */
+
+    /* transform-origin: 100% 100%; */
+            /* EQUALS */
+    /* transform-origin: right bottom; */
+
+    /* STANDARD */
+    /* transform-origin: 50% 50%; */
+            /* EQUALS */
+    /* transform-origin: center; */
+
+    
+}
