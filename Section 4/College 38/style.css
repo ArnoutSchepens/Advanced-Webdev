@@ -10,9 +10,7 @@
 	font-family: Lato;
 	font-weight: 300;
 	box-sizing: border-box;
-	/* Resize only works with flex-wrap */
-	width: 33.333%;
-}
+} 
 
 .box-1 {
 	background-color: #e51400;
@@ -54,7 +52,9 @@
 .container {
     display: flex;
 	border: 10px solid black;
-	flex-direction: column-reverse;
-	flex-wrap: wrap-reverse;
-	height: 800px;
+	flex-direction: row;
+	/* justify-content: flex-end; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+	justify-content: center;
 }
