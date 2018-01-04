@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: #2c3e50;
+    animation-name: cycleskycolors;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.grass {
+    background: green;
+    /*
+        Sets the grass so it takes up the rest of the screen
+        200px is the height of .sun
+    */
+    height: calc(100% - 200px);
+	width: 100%;
+	position: absolute;
+}
+
+.sun {
+	background: #f1c40f;
+	width: 200px;
+	height: 200px;
+    border-radius: 50%;
+    animation-name: sunrise;
+    /* transform: translate(0px, 200px); */
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycleskycolors {
+	0% {
+		background-color: #2c3e50;
+	}
+	10% {
+		background-color: #FFB8BA;
+	}
+	30% {
+		background-color: #008FDB;
+	}
+	70% {
+		background-color: #008FDB;
+	}
+	90% {
+		background-color: #FFB8BA;
+	}
+	100% {
+		background-color: #2c3e50;
+	}
+}
+
+@keyframes sunrise {
+    0% {
+        transform: translate(0px, 200px);
+        background-color: #FF8D01;
+    }
+    25% {
+        transform: translate(300px, 50px);
+        background-color: #F8B900;
+    }
+    50% {
+        transform: translate(850px, 0px);
+        background-color: #F8B900;
+    }
+    75% {
+        transform: translate(1300px, 50px);
+        background-color: #F8B900;
+    }
+    100% {
+        transform: translate(1700px, 200px);
+        background-color: #E04000;
+    }
+}
