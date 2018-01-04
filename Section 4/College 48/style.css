@@ -1,0 +1,37 @@
+/* APPEARANCE STYLE */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+.box {
+	font-size: 100px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-family: Lato;
+	font-weight: 300;
+	box-sizing: border-box;
+    flex: 200px 1 1;
+}
+
+.box-1 {
+    background-color: #e51400;
+    flex-shrink: 2;
+}
+
+.box-2 {
+    background-color: #fa6800;
+    flex: 500px 1 1;
+}
+
+.box-3 {
+    background-color: #f0a30a;
+    flex-shrink: 2;
+}
+
+/* LAYOUT STYLE */
+.container {
+	border: 10px solid black;
+	display: flex;
+	flex-direction: row;
+	height: 90vh;
+}
