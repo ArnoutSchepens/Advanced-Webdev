@@ -1,0 +1,32 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	background-color: #cc0042;
+	padding: 20px;
+	flex: 200px 1 1;
+	color: white;
+	font-family: Helvetica;
+    cursor: pointer;
+    transition: 0.5s background;
+}
+
+.box:hover {
+	background-color: #ff0052;
+}
+
+.middle {
+	background-color: #b20039;
+}
+
+h3 {
+    font-size: 22px;
+}
