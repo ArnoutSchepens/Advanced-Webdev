@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav.nav-container {
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+    background-color: #34495e;
+}
+
+a.nav-container-item {
+	font-size: 25px;
+	text-decoration: none;
+	color: #95a5a6;
+	font-family: raleway;
+	border-bottom: 1px solid #52c9aa;
+	margin: 20px;
+	transition: color 0.5s ease-out;
+}
+
+a.nav-container-item:hover {
+	color: #3498db;
+	border-bottom-color: #3498db;
+}
+
+i {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 920px) {
+	nav.nav-container {
+		justify-content: center;
+    }
+    
+    a.nav-container-item {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	nav.nav-container {
+		flex-direction: column;
+        align-items: center;
+    }
+    
+    a.nav-container-item {
+        margin: 5px;
+    }
+}
