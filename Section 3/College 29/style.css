@@ -1,0 +1,29 @@
+.box {
+	background-color: #e74c3c;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	border-radius: 20px;
+
+	/*
+        The statements below are shorthanded into the single animation state
+        The order does not matter, with 1 exception
+        The first parameter which is a time, has to be animation-duration, the second time is animation-delay
+        --------------------------------------
+        animation-name: slideRight;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        animation-duration: 2s;
+    */
+    
+	animation: slideRight 2s 0s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes slideRight {
+	100% {
+		transform: translateX(500px);
+	}
+}
