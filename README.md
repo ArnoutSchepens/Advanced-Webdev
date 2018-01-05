@@ -1,10 +1,7 @@
 # Advanced-Webdev
 
-
-## Several advanced Webdev components in CSS, Javascript, ...
-
 ## Contents:
------------
+
 ### CSS
 * Keyframes
 * Animations
