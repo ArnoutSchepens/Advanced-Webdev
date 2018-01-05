@@ -11,5 +11,6 @@
 
 ### Javascript
 * Callback functions
+* Asynchronous JavaScript
 * AJAX (Upcoming)
 * React (Upcoming)
