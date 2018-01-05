@@ -5,13 +5,15 @@ $("#btn").click(function() {
 function getCat() {
 	$.getJSON("https://random.cat/meow")
 		.done(replaceCatImage)
-		.fail(function() {
-			console.log("ERROR");
-		});
+		.fail(handleErrors);
 }
 
 function replaceCatImage(res) {
 	$("#imgCat").attr("src", res.file);
+}
+
+function handleErrors(err) {
+	console.log("Eerror; not pawsible");
 }
 
 init();
