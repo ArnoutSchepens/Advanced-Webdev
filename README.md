@@ -1,9 +1,11 @@
-# Advanced-CSS
+# Advanced-Webdev
 
-Several advanced CSS components, such as Keyframes, Animations, Flexbox, ...
 
-Contents:
+## Several advanced Webdev components in CSS, Javascript, ...
 
+## Contents:
+-----------
+### CSS
 * Keyframes
 * Animations
 * Flexbox
