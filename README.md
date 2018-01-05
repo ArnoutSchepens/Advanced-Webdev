@@ -17,8 +17,8 @@
 * AJAX
   * XMLHttpRequest
   * Fetch
-  * JQuery (Going On)
-  * Axios (Upcoming)
-* Jasmine (Upcoming)
+  * JQuery
+  * Axios
+* Testing with Jasmine (Going on)
 
 ...
