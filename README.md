@@ -22,5 +22,6 @@
 * Testing with Jasmine
 * Closure
 * this
+* Call, Apply and Bind
 
 ...
