@@ -23,5 +23,6 @@
 * Closure
 * this
 * Call, Apply and Bind
+* new
 
 ...
