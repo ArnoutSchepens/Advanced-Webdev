@@ -19,6 +19,7 @@
   * Fetch
   * JQuery
   * Axios
-* Testing with Jasmine (Going on)
+* Testing with Jasmine
+* Closure
 
 ...
