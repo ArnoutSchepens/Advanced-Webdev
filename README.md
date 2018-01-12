@@ -25,4 +25,5 @@
 * Call, Apply and Bind
 * new
 * Node.js
+* ES2015
 * ...
