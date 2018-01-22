@@ -15,10 +15,10 @@
 * Callback functions
 * Asynchronous JavaScript
 * AJAX
-  * XMLHttpRequest
-  * Fetch
-  * JQuery
-  * Axios
+    * XMLHttpRequest
+    * Fetch
+    * JQuery
+    * Axios
 * Testing with Jasmine
 * Closure
 * this
@@ -29,4 +29,5 @@
 * ES2016
 * ES2017
 * D3 (Data-Driven Documents)
+* SVG (Scalable Vector Graphics)
 * ...
