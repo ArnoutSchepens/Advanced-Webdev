@@ -30,4 +30,5 @@
 * ES2017
 * D3 (Data-Driven Documents)
 * SVG (Scalable Vector Graphics)
+* GeoJSON
 * ...
