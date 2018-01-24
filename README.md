@@ -31,4 +31,5 @@
 * D3 (Data-Driven Documents)
 * SVG (Scalable Vector Graphics)
 * GeoJSON
+* TopoJSON
 * ...
